@@ -7,7 +7,26 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
 }
 
 //Random background
-document.addEventListener("DOMContentLoaded", function (event) {
+const imagesClass = [
+  "bg-image-duskpowerlines",
+  "bg-image-fieldsunset",
+  "bg-image-highsky",
+  "bg-image-nightbay",
+  "bg-image-nightcity",
+  "bg-image-nighttrain",
+  "bg-image-valley",
+  "bg-image-personsunsetdew",
+];
+
+const randomNumberBgImage = Math.floor(Math.random() * imagesClass.length);
+const bgImage = imagesClass[randomNumberBgImage];
+console.log(bgImage);
+//let bgImage = "url(" + images[randomNumber] + ")";
+//document.getElementsByClassName("bg-image").style.backgroundImage = "bgImage";
+const imgClass = document.getElementsByClassName("bg-image")[0];
+console.log(imgClass);
+
+document.addEventListener("DOMContentLoaded", function () {
   /*   const images = [
     "/src/img/duskpowerlines.jpg",
     "/src/img/fieldsunset.jpg",
@@ -18,25 +37,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
     "/src/img/valley.jpg",
     "/src/img/personsunsetdew1edit1.jpg",
   ]; */
-  const imagesClass = [
-    "bg-image-duskpowerlines",
-    "bg-image-fieldsunset",
-    "bg-image-highsky",
-    "bg-image-nightbay",
-    "bg-image-nightcity",
-    "bg-image-nighttrain",
-    "bg-image-valley",
-    "bg-image-personsunsetdew",
-  ];
 
-  let randomNumber = Math.floor(Math.random() * imagesClass.length);
-  let bgImage = imagesClass[randomNumber];
-  console.log(bgImage);
-  //let bgImage = "url(" + images[randomNumber] + ")";
-  //document.getElementsByClassName("bg-image").style.backgroundImage = "bgImage";
-  let imgClass = document.getElementsByClassName("bg-image")[0];
-  console.log(imgClass);
   imgClass.classList.add(bgImage);
 });
 
-//ss
+//sss

@@ -1,5 +1,6 @@
 console.log("Connected");
 
+//Max 13 choices
 let questionsList = [
   {
     questionNum: 1,
@@ -69,24 +70,24 @@ let questionsList = [
     choice9: "None of these",
   },
   {
-    question: "Any of these that you want to see?",
+    question: "Any of these that you want to see?", //checklist
     //value: 3,
-    choice1: "Cars",
-    choice2: "Mind-twisting plots", //Dementia
-    choice3: "Demons and dark creatures", //Demons
-    choice4: "Video games or board games", //Game
-    choice5: "Harems", //Harem
-    choice6: "History or historical fiction", //Historical
-    choice7: "Shows for kids", //Kids
-    choice8: "Martial arts",
-    choice9: "Giant robots and big machines", //Mecha
-    choice10: "A heavy militaristic feel", //Military
-    choice11: "Parodies", //Parody
-    choice12: "Police",
-    choice13: "Samurai",
-    choice14: "Space",
-    choice15: "Superpowers", //Superpower
-    choice16: "All of the above",
+    //choice1: "Cars",
+    choice1: "Mind-twisting plots", //Dementia
+    choice2: "Demons and dark creatures", //Demons
+    choice3: "Video games or board games", //Game
+    choice4: "Harems", //Harem
+    choice5: "History or historical fiction", //Historical
+    //choice7: "Shows for kids", //Kids
+    //choice8: "Martial arts",
+    choice6: "Giant robots and big machines", //Mecha
+    choice7: "A heavy militaristic feel", //Military
+    choice8: "Parodies", //Parody
+    //choice12: "Police",
+    choice9: "Samurai",
+    choice10: "Space",
+    choice11: "Superpowers", //Superpower
+    choice12: "All of the above",
   },
   {
     question: "Air date?",
@@ -97,12 +98,13 @@ let questionsList = [
     choice4: "",
   },
   {
-    question: "How many episodes would you prefer?",
+    question: "How many episodes would you prefer?", //checklist
     //value: 3,
     choice1: "13 or less",
-    choice2: "26 or less",
-    choice3: "Greater than 26",
-    choice4: "I'm fine with any length",
+    choice2: "13 to 26",
+    choice3: "26 or less",
+    choice4: "Greater than 26",
+    choice5: "I'm fine with any length",
   },
   {
     question: "How much anime have you watched?", //SORT BY POPULARITY NOT NETSCORE
@@ -112,3 +114,5 @@ let questionsList = [
     choice3: "000000000", //All
   },
 ];
+
+//s

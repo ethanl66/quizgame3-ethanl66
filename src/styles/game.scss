@@ -1,5 +1,15 @@
 @import "_variables.scss";
 
+#game {
+  background-color: rgba(53, 81, 92, 0.8);
+  border-radius: 1rem;
+  padding: 4rem;
+}
+#question {
+  margin-top: 0;
+  color: #459be6;
+}
+
 .choice-container {
   display: flex;
   margin-bottom: 0.5rem;
@@ -30,3 +40,5 @@
 .incorrect {
   background-color: #dc3545;
 }
+
+//s
