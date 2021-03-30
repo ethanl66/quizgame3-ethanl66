@@ -93,16 +93,16 @@ let questionsList = [
     choice9: "Samurai",
     choice10: "Space",
     choice11: "Superpowers", //Superpower
-    choice12: "All of the above",
+    choice12: "No preference",
   },
   {
     questionNum: 8,
     question: "Air date?",
     //value: 3,
-    choice1: "?",
-    choice2: "?",
-    choice3: "?",
-    choice4: "?",
+    choice1: "Before 1989",
+    choice2: "1990-1999",
+    choice3: "2000-2009",
+    choice4: "2010-present",
   },
   {
     questionNum: 9,
@@ -112,15 +112,14 @@ let questionsList = [
     choice2: "13 to 26",
     choice3: "26 or less",
     choice4: "Greater than 26",
-    choice5: "I'm fine with any length",
   },
   {
     questionNum: 10,
     question: "How much anime have you watched?", //SORT BY POPULARITY NOT NETSCORE
     //value: 3,
     choice1: "A lot", //Less popular
-    choice2: "I can count them on my fingers", //Not top 10
-    choice3: "0", //All
+    choice2: "I can count them on my fingers", //Not top 5
+    choice3: "Anime?", //All
   },
 ];
 

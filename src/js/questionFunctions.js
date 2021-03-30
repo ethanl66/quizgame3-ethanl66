@@ -193,12 +193,12 @@ const question6 = function () {
         </div>
         
         <div class="choice-container">
-        <p class="choice-prefix">G</p>
+        <p class="choice-prefix">H</p>
         <p class="choice-text" id="choice-6-8" data-number="8">${questionsList[5].choice8}</p>
         </div>
   
         <div class="choice-container">
-        <p class="choice-prefix">G</p>
+        <p class="choice-prefix">I</p>
         <p class="choice-text" id="choice-6-9" data-number="9">${questionsList[5].choice9}</p>
         </div>
               
@@ -248,27 +248,27 @@ const question7 = function () {
           </div>
           
           <div class="choice-container">
-          <p class="choice-prefix">G</p>
+          <p class="choice-prefix">H</p>
           <p class="choice-text" id="choice-7-8" data-number="8">${questionsList[6].choice8}</p>
           </div>
     
           <div class="choice-container">
-          <p class="choice-prefix">G</p>
+          <p class="choice-prefix">I</p>
           <p class="choice-text" id="choice-7-9" data-number="9">${questionsList[6].choice9}</p>
           </div>
           
           <div class="choice-container">
-          <p class="choice-prefix">G</p>
+          <p class="choice-prefix">J</p>
           <p class="choice-text" id="choice-7-10" data-number="10">${questionsList[6].choice10}</p>
           </div>
           
           <div class="choice-container">
-          <p class="choice-prefix">G</p>
+          <p class="choice-prefix">K</p>
           <p class="choice-text" id="choice-7-11" data-number="11">${questionsList[6].choice11}</p>
           </div>
           
           <div class="choice-container">
-          <p class="choice-prefix">G</p>
+          <p class="choice-prefix">L</p>
           <p class="choice-text" id="choice-7-12" data-number="12">${questionsList[6].choice12}</p>
           </div>      
 
@@ -331,11 +331,6 @@ const question9 = function () {
                 <p class="choice-prefix">B</p>
                 <p class="choice-text" id="choice-9-4" data-number="4">${questionsList[8].choice4}</p>
                 </div>
-                
-                <div class="choice-container">
-                <p class="choice-prefix">B</p>
-                <p class="choice-text" id="choice-9-5" data-number="5">${questionsList[8].choice5}</p>
-                </div>
                       
       <button id="nextButton">Next</button>`
   );
@@ -362,7 +357,7 @@ const question10 = function () {
                       <p class="choice-text" id="choice-10-3" data-number="3">${questionsList[9].choice3}</p>
               </div>
                     
-      <button id="nextButton">Next</button>`
+           <a class="btn finish-button" id="nextButton" href="results.html">Get Results</a>`
   );
 };
 
