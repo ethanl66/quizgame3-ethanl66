@@ -27,6 +27,9 @@ p {
   align-items: center;
   position: absolute;
   background-position: center top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   //filter: blur(2px) contrast(50%);
   //transform: scale(1.01);
 
@@ -168,10 +171,14 @@ h3 {
   @include btnhover;
 }
 
+#fake-results-button {
+  display: none;
+}
+
 /* .btn[disabled]:hover {
   cursor: not-allowed;
   box-shadow: none;
   transform: none;
 } */
 
-//s
+//ss
