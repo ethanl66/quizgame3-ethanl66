@@ -93,7 +93,7 @@ const question3 = function () {
           </div>
           
           <div class="choice-container">
-          <p class="choice-prefix">C</p>
+          <p class="choice-prefix">D</p>
           <p class="choice-text" id="choice-3-4" data-number="4">${questionsList[2].choice4}</p>
           </div>
           
