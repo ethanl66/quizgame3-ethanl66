@@ -4,6 +4,9 @@
   background-color: rgba(53, 81, 92, 0.8);
   border-radius: 1rem;
   padding: 4rem 4rem 3rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 #question {
   margin-top: 0;

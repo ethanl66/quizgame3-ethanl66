@@ -1252,4 +1252,14 @@ document.getElementById("choice7").addEventListener("click", function () {
 
 //console.log(DOMSelectors.displayContainer);
 
+//HEIGHT OF BACKGROUND IMAGE SAME AS #HOME
+const game = document.getElementById("game");
+console.log(game);
+const gameHeight = game.offsetHeight;
+console.log(gameHeight);
+
+const backgroundImage = document.getElementById("bg-image");
+backgroundImage.style.height = gameHeight + "px";
+backgroundImage.style.minHeight = "100%";
+
 /* sssssssssssssssss */

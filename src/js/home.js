@@ -31,11 +31,11 @@ const imagesClass = [
 
 const randomNumberBgImage = Math.floor(Math.random() * imagesClass.length);
 const bgImage = imagesClass[randomNumberBgImage];
-console.log(bgImage);
+//console.log(bgImage);
 //let bgImage = "url(" + images[randomNumber] + ")";
 //document.getElementsByClassName("bg-image").style.backgroundImage = "bgImage";
 const imgClass = document.getElementsByClassName("bg-image")[0];
-console.log(imgClass);
+//console.log(imgClass);
 
 document.addEventListener("DOMContentLoaded", function () {
   imgClass.classList.add(bgImage);
