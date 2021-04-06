@@ -10,39 +10,8 @@ const question1 = function () {
       '<div class="choice-container">
           <p class="choice-prefix">A</p>
           <p class="choice-text choice1-1" id="choice1" data-number="1">${questionsList[0].choice1}</p>
-      </div><div class="choice-container">
-      <p class="choice-prefix">A</p>
-      <p class="choice-text choice1-1" id="choice1" data-number="1">${questionsList[0].choice1}</p>
-  </div>
-      <div class="choice-container">
-          <p class="choice-prefix">A</p>
-          <p class="choice-text choice1-1" id="choice1" data-number="1">${questionsList[0].choice1}</p>
-      </div><div class="choice-container">
-      <p class="choice-prefix">A</p>
-      <p class="choice-text choice1-1" id="choice1" data-number="1">${questionsList[0].choice1}</p>
-  </div><div class="choice-container">
-  <p class="choice-prefix">A</p>
-  <p class="choice-text choice1-1" id="choice1" data-number="1">${questionsList[0].choice1}</p>
-</div><div class="choice-container">
-<p class="choice-prefix">A</p>
-<p class="choice-text choice1-1" id="choice1" data-number="1">${questionsList[0].choice1}</p>
-</div><div class="choice-container">
-<p class="choice-prefix">A</p>
-<p class="choice-text choice1-1" id="choice1" data-number="1">${questionsList[0].choice1}</p>
-</div><div class="choice-container">
-<p class="choice-prefix">A</p>
-<p class="choice-text choice1-1" id="choice1" data-number="1">${questionsList[0].choice1}</p>
-</div><div class="choice-container">
-<p class="choice-prefix">A</p>
-<p class="choice-text choice1-1" id="choice1" data-number="1">${questionsList[0].choice1}</p>
-</div><div class="choice-container">
-<p class="choice-prefix">A</p>
-<p class="choice-text choice1-1" id="choice1" data-number="1">${questionsList[0].choice1}</p>
-</div><div class="choice-container">
-<p class="choice-prefix">A</p>
-<p class="choice-text choice1-1" id="choice1" data-number="1">${questionsList[0].choice1}</p>
-</div>
-  
+      </div>
+      
       <div class="choice-container">
           <p class="choice-prefix">B</p>
           <p class="choice-text choice1-2" id="choice2" data-number="2">${questionsList[0].choice2}</p>
